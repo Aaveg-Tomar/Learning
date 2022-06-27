@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+   background-color: black;
+   color: white;
+
+}
+
+.navbar button{
+    background-color: white;
+    height: 80%;
+    padding: 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: ;
+}
