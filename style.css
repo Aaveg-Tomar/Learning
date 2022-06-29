@@ -3,6 +3,9 @@
     justify-content: space-around;
    background-color: black;
    color: white;
+   margin: -8px;
+   position: fixed;
+   width: 100%;
 
 }
 
@@ -12,7 +15,94 @@
     padding: 10px;
 }
 
+#search{
+    margin-top: 14px;
+    border-radius: 8px;
+}
+
 .about{
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
+
+#AlbumExample{
+    font-size: 40px;
+    margin-bottom: 14px;
+    margin-top: 74px;
+}
+
+#para{
+    
+    margin-left: 125px;
+    margin-right: 120px;
+}
+
+.b{
+    margin-top: ;
+}
+
+#maincall{
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#secondary{
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.388);
+    width: 90%;
+    margin-left: 48px;
+    border-radius: 20px;
+    margin-top: 75px;
+    
+}
+
+.album{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.album .thumbnail img{
+    width: 100%;
+   
+}
+
+.details{
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.album .details .details-footer{
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+
+img.round{
+    border-radius: 20px;
+}
+
+
