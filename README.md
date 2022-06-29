@@ -1,2 +1,2 @@
 # Learning
-Making website using flex
+Making respomsive website using HTML and CSS
